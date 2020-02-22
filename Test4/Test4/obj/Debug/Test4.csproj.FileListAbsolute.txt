@@ -1,0 +1,6 @@
+C:\C#\Test4\Test4\bin\Debug\Test4.exe.config
+C:\C#\Test4\Test4\bin\Debug\Test4.exe
+C:\C#\Test4\Test4\bin\Debug\Test4.pdb
+C:\C#\Test4\Test4\obj\Debug\Test4.csprojAssemblyReference.cache
+C:\C#\Test4\Test4\obj\Debug\Test4.exe
+C:\C#\Test4\Test4\obj\Debug\Test4.pdb
