@@ -1,0 +1,6 @@
+C:\C#\Test2\Test2\bin\Debug\Test2.exe.config
+C:\C#\Test2\Test2\bin\Debug\Test2.exe
+C:\C#\Test2\Test2\bin\Debug\Test2.pdb
+C:\C#\Test2\Test2\obj\Debug\Test2.csprojAssemblyReference.cache
+C:\C#\Test2\Test2\obj\Debug\Test2.exe
+C:\C#\Test2\Test2\obj\Debug\Test2.pdb
