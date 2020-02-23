@@ -10,6 +10,7 @@ using System.Text;
 // System.Text 네임스페이스 : ASCII 및 유니코드 문자 인코딩을 나타내는 클래스, 문자와 바이트 블록 간을 변환하기 위한 추상 기본 클래스,
 //                            String의 중간 인스턴스를 만들지 않고 String 개체를 조정하고 서식을 지정하는 도우미 클래스가 포함되어 있습니다.
 using static System.Console;
+// System.Console 클래스 : 콘솔 애플리케이션에 대한 표준 입력, 출력 및 오류 스트림을 나타냅니다.
 
 namespace EchoServer
 {
@@ -84,7 +85,7 @@ namespace EchoServer
                         // System.Text.Encoding 클래스 : 문자 인코딩을 나타냅니다.
                         // System.Text.Encoding.Default 속성 : 이 .NET 구현을 위한 기본 인코딩을 가져옵니다.
                         // System.Text.Encoding.GetString 메서드 : 파생 클래스에서 재정의되면 바이트 시퀀스를 문자열로 디코딩합니다.
-                            // 오버로드 GetString(Byte[], Int32, Int32)     : 파생 클래스에서 재정의되면 지정한 바이트 배열의 바이트 시퀀스를 문자열로 디코딩합니다.
+                            // 오버로드 GetString(Byte[], Int32, Int32) : 파생 클래스에서 재정의되면 지정한 바이트 배열의 바이트 시퀀스를 문자열로 디코딩합니다.
 
                         WriteLine(String.Format($"수신: {data}"));
                         // System.String.Format 메서드 : 지정된 형식에 따라 개체의 값을 문자열로 변환하여 다른 문자열에 삽입 합니다.
@@ -95,21 +96,28 @@ namespace EchoServer
                             // 오버로드 GetBytes(String) : 파생 클래스에서 재정의되면 지정한 문자열의 모든 문자를 바이트 시퀀스로 인코딩합니다.
 
                         stream.Write(msg, 0, msg.Length);
+                        // System.Net.Sockets.NetworkStream.Read 메서드
+                            // 오버로드 Read(Byte[], Int32, Int32) : NetworkStream에서 데이터를 읽고 바이트 배열에 저장합니다.
 
                         WriteLine(String.Format($"송신: {data}"));
                     }
 
                     stream.Close();
+                    // System.IO.Stream.Close 메서드 : 현재 스트림을 닫고 현재 스트림과 관련된 소켓과 파일 핸들 등의 리소스를 모두 해제합니다.
+                    //                                 이 메서드를 호출하는 대신 스트림이 올바르게 삭제되었는지 확인합니다.
                     client.Close();
+                    // System.Net.Sockets.TcpClient.Close 메서드 : 이 TcpClient 인스턴스를 삭제하고 내부 TCP 연결을 닫도록 요청합니다.
                 }
             }
             catch (SocketException e)
+            // System.Net.Sockets.SocketException 클래스 : 소켓 오류가 발생할 때 발생되는 예외입니다.
             {
                 WriteLine(e);
             }
             finally
             {
                 server.Stop();
+                // System.Net.Sockets.TcpListener.Stop 메서드 : 수신기를 닫습니다.
             }
 
             WriteLine("서버를 종료합니다.");

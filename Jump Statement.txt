@@ -1,0 +1,25 @@
+Jump Statement
+흐름을 끊고 프로그램의 실행 위치를 원하는 곳으로 도약
+
+break
+continue
+goto
+return
+throw
+
+break
+현재 실행 중인 반복문이나 switch 문의 실행을 중단
+break; 문을 반복문이나 switch 문의 중단시키고자 하는 지점에 입력
+
+continue
+continue; 문이 반복문 안에 사용되면 실행 중인 반복을 건너 뛰어 반복을 계속 수행
+
+goto
+레이블이 가리키는 곳으로 건너 뛰어 반복을 계속 수행
+goto 레이블;
+레이블:
+	//이어지는 코드;
+
+retrun
+메소드 중간에 호출되어 메소드를 종결시키고 프로그램의 흐름을 호출자에게 돌려줌
+반환 형식이 void인 경우에도 return 문을 사용할 수 있음
