@@ -2,7 +2,7 @@ using System;
 
 namespace FUP
 {
-    class Header : ISerializable
+    public class Header : ISerializable
     {
         public uint MSGID { get; set; }
         public uint MSGTYPE { get; set; }
