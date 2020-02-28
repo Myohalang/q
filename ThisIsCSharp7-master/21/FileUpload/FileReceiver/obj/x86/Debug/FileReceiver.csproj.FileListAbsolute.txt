@@ -1,0 +1,8 @@
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FileReceiver\bin\Debug\FileReceiver.exe
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FileReceiver\bin\Debug\FileReceiver.pdb
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FileReceiver\bin\Debug\FUP.dll
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FileReceiver\bin\Debug\FUP.pdb
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FileReceiver\obj\x86\Debug\FileReceiver.csprojAssemblyReference.cache
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FileReceiver\obj\x86\Debug\FileReceiver.csproj.CopyComplete
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FileReceiver\obj\x86\Debug\FileReceiver.exe
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FileReceiver\obj\x86\Debug\FileReceiver.pdb

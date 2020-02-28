@@ -1,0 +1,5 @@
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FUP\bin\Debug\FUP.dll
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FUP\bin\Debug\FUP.pdb
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FUP\obj\Debug\FUP.csprojAssemblyReference.cache
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FUP\obj\Debug\FUP.dll
+C:\C#\ThisIsCSharp7-master\21\FileUpload\FUP\obj\Debug\FUP.pdb
