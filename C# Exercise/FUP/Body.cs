@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,6 @@ namespace FUP
         public long FILESIZE;
         public byte[] FILENAME;
 
-        public BodyRequest() { }
         public BodyRequest(byte[] bytes)
         {
             FILESIZE = BitConverter.ToInt64(bytes, 0);
@@ -38,7 +37,7 @@ namespace FUP
     {
         public uint MSGID;
         public byte RESPONSE;
-        public BodyResponse() { }
+
         public BodyResponse(byte[] bytes)
         {
             MSGID = BitConverter.ToUInt32(bytes, 0);
@@ -88,7 +87,7 @@ namespace FUP
         public byte RESULT;
 
         public BodyResult() { }
-        public BodyResult (byte[] bytes)
+        public BodyResult(byte[] bytes)
         {
             MSGID = BitConverter.ToUInt32(bytes, 0);
             RESULT = bytes[4];

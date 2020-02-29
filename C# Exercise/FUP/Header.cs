@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace FUP
 {
@@ -11,8 +11,7 @@ namespace FUP
         public byte LASTMSG { get; set; } // 분할된 메시지가 마지막인지 여부
         public ushort SEQ { get; set; } // 메시지의 파편 번호
 
-        public Header() { } // 디폴트 생성자
-        public Header(byte[] bytes) // 생성자
+        public Header(byte[] bytes)
         {
             MSGID = BitConverter.ToUInt32(bytes, 0);
             MSGTYPE = BitConverter.ToUInt32(bytes, 4);
@@ -33,7 +32,22 @@ namespace FUP
             byte[] bytes = new byte[16];
 
             byte[] temp = BitConverter.GetBytes(MSGID);
+            // System.BitConverter.GetBytes 메서드 : 지정된 데이터를 바이트 배열로 변환합니다.
             Array.Copy(temp, 0, bytes, 0, temp.Length);
+            // System.Array.Copy 메서드 : 한 Array의 요소 범위를 다른 Array에 복사하고 필요에 따라 형식 캐스팅 및 boxing을 수행합니다.
+            /*오버로드
+            Copy(Array, Int32, Array, Int32, Int32) : Array의 요소 범위를 지정한 소스 인덱스부터 복사하여 지정된 대상 인덱스부터 시작하는 다른 Array에 붙여 넣습니다.
+                                                      길이와 인덱스가 32비트 정수로 지정되어 있습니다.
+            매개 변수
+            sourceArray Array 복사할 데이터가 포함된 Array입니다.
+
+            sourceIndex Int32 복사가 시작되는 sourceArray의 인덱스를 나타내는 32비트 정수입니다.
+
+            destinationArray Array 데이터를 받는 Array입니다.
+
+            destinationIndex Int32 저장이 시작되는 destinationArray의 인덱스를 나타내는 32비트 정수입니다.
+
+            length Int32 복사할 요소의 개수를 나타내는 32비트 정수입니다.*/
 
             temp = BitConverter.GetBytes(MSGTYPE);
             Array.Copy(temp, 0, bytes, 4, temp.Length);
