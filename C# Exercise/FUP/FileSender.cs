@@ -81,8 +81,50 @@ namespace FileSender
                     long readValue = BitConverter.ToInt64(rbytes, 0);
 
                     int totalRead = 0;
+                    ushort msgSeq = 0;
+                    byte fragmented = (fileStream.Length < CHUNK_SIZE) ? CONSTANTS.NOT_FRAGMENTED : CONSTANTS.FRAGMENTED;
+                    while (totalRead < fileStream.Length)
+                    {
+                        int read = fileStream.Read(rbytes, 0, CHUNK_SIZE);
+                        totalRead += read;
+                        Message fileMsg = new Message();
+
+                        byte[] sendBytes = new byte[read];
+                        Array.Copy(rbytes, 0, sendBytes, 0, read);
+
+                        fileMsg.Body = new BodyData(sendBytes);
+                        fileMsg.Header = new Header()
+                        {
+                            MSGID = msgId,
+                            MSGTYPE = CONSTANTS.FILE_SEND_DATA,
+                            BODYLEN = (uint)fileMsg.Body.GetSize(),
+                            FRAGMENTED = fragmented,
+                            LASTMSG = (totalRead < fileStream.Length) ? CONSTANTS.NOT_LASTMSG : CONSTANTS.LASTMSG,
+                            SEQ = msgSeq++
+                        };
+
+                        Write("#");
+
+                        MessageUtil.Send(stream, fileMsg);
+                    }
+
+                    WriteLine();
+
+                    Message rstMsg = MessageUtil.Receive(stream);
+
+                    BodyResult result = ((BodyResult)rstMsg.Body);
+                    WriteLine($"파일 전송 성공 : {result.RESULT == CONSTANTS.SUCCESS}");
                 }
+
+                stream.Close();
+                client.Close();
             }
+            catch (SocketException e)
+            {
+                WriteLine(e);
+            }
+
+            WriteLine("클라이언트를 종료합니다.");
         }
     }
 }
