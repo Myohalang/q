@@ -1,5 +1,4 @@
-using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
@@ -32,6 +31,8 @@ namespace FileReceiver
             try
             {
                 IPEndPoint localAddress = new IPEndPoint(0, bindPort);
+
+                server = new TcpListener(localAddress);
                 server.Start();
 
                 WriteLine("파일 업로드 서버 시작...");

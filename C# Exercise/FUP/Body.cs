@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace FUP
 {
@@ -15,6 +12,16 @@ namespace FUP
             FILESIZE = BitConverter.ToInt64(bytes, 0);
             FILENAME = new byte[bytes.Length - sizeof(long)];
             Array.Copy(bytes, sizeof(long), FILENAME, 0, FILENAME.Length);
+            /*매개 변수
+            sourceArray Array 복사할 데이터가 포함된 Array입니다.
+
+            sourceIndex Int32 복사가 시작되는 sourceArray의 인덱스를 나타내는 32비트 정수입니다.
+
+            destinationArray Array 데이터를 받는 Array입니다.
+
+            destinationIndex Int32 저장이 시작되는 destinationArray의 인덱스를 나타내는 32비트 정수입니다.
+
+            length Int32 복사할 요소의 개수를 나타내는 32비트 정수입니다.*/
         }
 
         public byte[] GetBytes()
@@ -86,7 +93,6 @@ namespace FUP
         public uint MSGID;
         public byte RESULT;
 
-        public BodyResult() { }
         public BodyResult(byte[] bytes)
         {
             MSGID = BitConverter.ToUInt32(bytes, 0);
@@ -97,7 +103,7 @@ namespace FUP
         {
             byte[] bytes = new byte[GetSize()];
             byte[] temp = BitConverter.GetBytes(MSGID);
-            Array.Copy(temp, 90, bytes, 0, temp.Length);
+            Array.Copy(temp, 0, bytes, 0, temp.Length);
             bytes[temp.Length] = RESULT;
 
             return bytes;
