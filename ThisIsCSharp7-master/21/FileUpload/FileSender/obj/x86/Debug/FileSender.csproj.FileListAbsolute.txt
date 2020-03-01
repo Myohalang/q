@@ -1,8 +1,0 @@
-C:\C#\ThisIsCSharp7-master\21\FileUpload\FileSender\bin\Debug\FileSender.exe
-C:\C#\ThisIsCSharp7-master\21\FileUpload\FileSender\bin\Debug\FileSender.pdb
-C:\C#\ThisIsCSharp7-master\21\FileUpload\FileSender\bin\Debug\FUP.dll
-C:\C#\ThisIsCSharp7-master\21\FileUpload\FileSender\bin\Debug\FUP.pdb
-C:\C#\ThisIsCSharp7-master\21\FileUpload\FileSender\obj\x86\Debug\FileSender.csprojAssemblyReference.cache
-C:\C#\ThisIsCSharp7-master\21\FileUpload\FileSender\obj\x86\Debug\FileSender.csproj.CopyComplete
-C:\C#\ThisIsCSharp7-master\21\FileUpload\FileSender\obj\x86\Debug\FileSender.exe
-C:\C#\ThisIsCSharp7-master\21\FileUpload\FileSender\obj\x86\Debug\FileSender.pdb
