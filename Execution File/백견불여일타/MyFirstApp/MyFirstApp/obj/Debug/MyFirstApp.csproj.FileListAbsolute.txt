@@ -1,0 +1,6 @@
+C:\C#\Execution File\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe.config
+C:\C#\Execution File\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe
+C:\C#\Execution File\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.pdb
+C:\C#\Execution File\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.exe
+C:\C#\Execution File\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.pdb
+C:\C#\Execution File\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.csprojAssemblyReference.cache
