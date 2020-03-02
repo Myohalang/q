@@ -1,5 +1,0 @@
-C:\C#\Execution File\MyFirstApp\MyFirstApp\bin\Release\MyFirstApp.exe.config
-C:\C#\Execution File\MyFirstApp\MyFirstApp\bin\Release\MyFirstApp.exe
-C:\C#\Execution File\MyFirstApp\MyFirstApp\bin\Release\MyFirstApp.pdb
-C:\C#\Execution File\MyFirstApp\MyFirstApp\obj\Release\MyFirstApp.exe
-C:\C#\Execution File\MyFirstApp\MyFirstApp\obj\Release\MyFirstApp.pdb

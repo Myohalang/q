@@ -1,9 +1,0 @@
-C:\Execution File\FileReceiver\FileReceiver\bin\Debug\FileReceiver.exe.config
-C:\Execution File\FileReceiver\FileReceiver\bin\Debug\FileReceiver.exe
-C:\Execution File\FileReceiver\FileReceiver\bin\Debug\FileReceiver.pdb
-C:\Execution File\FileReceiver\FileReceiver\bin\Debug\FUP.dll
-C:\Execution File\FileReceiver\FileReceiver\bin\Debug\FUP.pdb
-C:\Execution File\FileReceiver\FileReceiver\obj\Debug\FileReceiver.csprojAssemblyReference.cache
-C:\Execution File\FileReceiver\FileReceiver\obj\Debug\FileReceiver.csproj.CopyComplete
-C:\Execution File\FileReceiver\FileReceiver\obj\Debug\FileReceiver.exe
-C:\Execution File\FileReceiver\FileReceiver\obj\Debug\FileReceiver.pdb
