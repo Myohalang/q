@@ -3,3 +3,4 @@ C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter0
 C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter04\bin\Debug\RoadBook.CsharpBasic.Chapter04.pdb
 C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter04\obj\Debug\RoadBook.CsharpBasic.Chapter04.exe
 C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter04\obj\Debug\RoadBook.CsharpBasic.Chapter04.pdb
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter04\obj\Debug\RoadBook.CsharpBasic.Chapter04.csprojAssemblyReference.cache
