@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{32B7800F-8CDC-4294-AADC-27EF15F9D6A7}</ProjectGuid>
+    <ProjectGuid>{88DC23FE-D203-42B0-B3BA-4EB1BA9C4F27}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>RoadBook.CsharpBasic.Chapter03</RootNamespace>
-    <AssemblyName>RoadBook.CsharpBasic.Chapter03</AssemblyName>
+    <RootNamespace>RoadBook.CsharpBasic.Chapter04</RootNamespace>
+    <AssemblyName>RoadBook.CsharpBasic.Chapter04</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
     <Compile Include="Examples\Ex003.cs" />
     <Compile Include="Examples\Ex004.cs" />
     <Compile Include="Examples\Ex005.cs" />
-    <Compile Include="Examples\Ex006.cs" />
-    <Compile Include="Examples\Ex007.cs" />
-    <Compile Include="Examples\Ex008.cs" />
-    <Compile Include="Examples\Ex009.cs" />
-    <Compile Include="Examples\Ex010.cs" />
-    <Compile Include="Examples\Ex011.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
