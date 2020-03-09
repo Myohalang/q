@@ -1,0 +1,6 @@
+C:\C#\Execution File\백견불여일타\Test\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\C#\Execution File\백견불여일타\Test\Test\bin\Debug\Test.exe.config
+C:\C#\Execution File\백견불여일타\Test\Test\bin\Debug\Test.exe
+C:\C#\Execution File\백견불여일타\Test\Test\bin\Debug\Test.pdb
+C:\C#\Execution File\백견불여일타\Test\Test\obj\Debug\Test.exe
+C:\C#\Execution File\백견불여일타\Test\Test\obj\Debug\Test.pdb
