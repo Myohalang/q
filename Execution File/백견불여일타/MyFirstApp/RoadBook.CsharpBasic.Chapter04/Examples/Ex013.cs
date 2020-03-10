@@ -24,58 +24,63 @@ namespace RoadBook.CsharpBasic.Chapter04.Examples
 
             while (true)
             {
-                if (check_balance == Convert.ToInt32(ReadLine()))
+
+                int input = Convert.ToInt32(ReadLine());
+
+                if (input == 0)
                 {
-                    WriteLine($"잔액은 {balance}입니다.");
-
-                    continue;
-                }
-                else if (deposit == Convert.ToInt32(ReadLine()))
-                {
-                    WriteLine("입금할 금액을 입력하세요.");
-                    Write("입력 : ");
-
-                    balance += Convert.ToInt32(ReadLine());
-
-                    WriteLine("입금되었습니다.");
-
-                    continue;
-                }
-                else if (withdrawal == Convert.ToInt32(ReadLine()))
-                {
-                    WriteLine("출금할 금액을 입력하세요.");
-                    Write("입력 : ");
-
-                    int i = Convert.ToInt32(ReadLine());
-
-                    if (balance > i)
-                    {
-                        balance -= i;
-
-                        WriteLine("출금되었습니다.");
-
-                        continue;
-                    }
-                    else
-                    {
-                        WriteLine("금액이 부족합니다.");
-
-                        continue;
-                    }
-                }
-                else if (close == Convert.ToInt32(ReadLine()))
-                {
-                    WriteLine("감사합니다.");
-
                     break;
                 }
-                else
-                {
-                    WriteLine("잘못된 입력입니다.");
 
-                    continue;
+                switch (input)
+                {
+                    case 1:
+                        {
+                            WriteLine($"잔액은 {balance}입니다.");
+                            break;
+                        }
+                    case 2:
+                        {
+                            WriteLine("입금할 금액을 입력하세요.");
+                            Write("입력 : ");
+
+                            balance += Convert.ToInt32(ReadLine());
+
+                            WriteLine("입금되었습니다.");
+
+                            break;
+                        }
+                    case 3:
+                        {
+                            WriteLine("출금할 금액을 입력하세요.");
+                            Write("입력 : ");
+
+                            int i = Convert.ToInt32(ReadLine());
+
+                            if (balance > i)
+                            {
+                                balance -= i;
+
+                                WriteLine("출금되었습니다.");
+
+                                break;
+                            }
+                            else
+                            {
+                                WriteLine("금액이 부족합니다.");
+
+                                break;
+                            }
+                        }
+                    default:
+                        {
+                            WriteLine("잘못된 입력입니다.");
+                            break;
+                        }
                 }
             }
+
+            WriteLine("감사합니다.");
         }
     }
 }
