@@ -8,11 +8,6 @@ namespace RoadBook.CsharpBasic.Chapter04.Examples
 
         public void Run()
         {
-            int check_balance = 1;
-            int deposit = 2;
-            int withdrawal = 3;
-            int close = 0;
-
             int balance = 0;
 
             WriteLine("********** 안녕하세요 Road Bank입니다 **********");
