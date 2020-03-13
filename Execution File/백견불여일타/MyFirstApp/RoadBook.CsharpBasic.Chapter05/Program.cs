@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace RoadBook.CsharpBasic.Chapter05
+﻿namespace RoadBook.CsharpBasic.Chapter05
 {
     class Program
     {
         static void Main()
         {
-            Examples.Ex009 Ex = new Examples.Ex009();
+            Examples.Ex012 Ex = new Examples.Ex012();
             Ex.Run();
         }
     }
