@@ -3,7 +3,7 @@
     class BankAccount
     {
         public string bankBook { get; set; }
-        public string bankname { get; set; }
-        public int Money { get; set; }
+        public string username { get; set; }
+        public int money { get; set; }
     }
 }

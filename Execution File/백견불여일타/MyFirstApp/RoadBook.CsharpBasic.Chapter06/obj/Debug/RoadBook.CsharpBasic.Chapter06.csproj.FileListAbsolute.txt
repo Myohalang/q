@@ -1,0 +1,6 @@
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter06\bin\Debug\RoadBook.CsharpBasic.Chapter06.exe.config
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter06\bin\Debug\RoadBook.CsharpBasic.Chapter06.exe
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter06\bin\Debug\RoadBook.CsharpBasic.Chapter06.pdb
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter06\obj\Debug\RoadBook.CsharpBasic.Chapter06.csprojAssemblyReference.cache
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter06\obj\Debug\RoadBook.CsharpBasic.Chapter06.exe
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter06\obj\Debug\RoadBook.CsharpBasic.Chapter06.pdb

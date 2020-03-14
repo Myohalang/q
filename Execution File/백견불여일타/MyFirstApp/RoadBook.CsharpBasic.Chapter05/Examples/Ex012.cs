@@ -16,6 +16,15 @@ namespace RoadBook.CsharpBasic.Chapter05.Examples
             WriteLine("0 : 종료");
             WriteLine("************************************************");
 
+            Model.BankAccount bank = new Model.BankAccount();
+
+            Model.BankAccount bankAccount = new Model.BankAccount()
+            {
+                bankBook = "",
+                username = "",
+                money = 0
+            };
+
             while (true)
             {
 
@@ -31,19 +40,18 @@ namespace RoadBook.CsharpBasic.Chapter05.Examples
                     case 1:
                         {
                             WriteLine("통장 고유 이름을 입력하세요.");
-                            Model.BankAccount bank = new Model.BankAccount();
                             bank.bankBook = ReadLine();
 
                             WriteLine("통장 개설자의 이름을 입력하세요.");
-                            bank.bankname = ReadLine();
+                            bank.username = ReadLine();
 
-                            WriteLine($"'{bank.bankBook}'님의 '{bank.bankname}'통장이 개설되었습니다.");
+                            WriteLine($"'{bank.bankBook}'님의 '{bank.username}'통장이 개설되었습니다.");
                             break;
                         }
 
                     case 2:
                         {
-                            WriteLine($"잔액은 {Model.Money}입니다.");
+                            WriteLine($"잔액은 {bank.money}입니다.");
                             break;
                         }
                     case 3:
@@ -51,7 +59,7 @@ namespace RoadBook.CsharpBasic.Chapter05.Examples
                             WriteLine("입금할 금액을 입력하세요.");
                             Write("입력 : ");
 
-                            balance += Convert.ToInt32(ReadLine());
+                            bank.money += Convert.ToInt32(ReadLine());
 
                             WriteLine("입금되었습니다.");
 
@@ -64,9 +72,9 @@ namespace RoadBook.CsharpBasic.Chapter05.Examples
 
                             int i = Convert.ToInt32(ReadLine());
 
-                            if (balance > i)
+                            if (bank.money > i)
                             {
-                                balance -= i;
+                                bank.money -= i;
 
                                 WriteLine("출금되었습니다.");
 
