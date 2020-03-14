@@ -1,0 +1,8 @@
+C:\C#\Execution File\백견불여일타\MyFirstApp\AddLib\bin\Debug\netstandard2.0\AddLib.deps.json
+C:\C#\Execution File\백견불여일타\MyFirstApp\AddLib\bin\Debug\netstandard2.0\AddLib.dll
+C:\C#\Execution File\백견불여일타\MyFirstApp\AddLib\bin\Debug\netstandard2.0\AddLib.pdb
+C:\C#\Execution File\백견불여일타\MyFirstApp\AddLib\obj\Debug\netstandard2.0\AddLib.csprojAssemblyReference.cache
+C:\C#\Execution File\백견불여일타\MyFirstApp\AddLib\obj\Debug\netstandard2.0\AddLib.AssemblyInfoInputs.cache
+C:\C#\Execution File\백견불여일타\MyFirstApp\AddLib\obj\Debug\netstandard2.0\AddLib.AssemblyInfo.cs
+C:\C#\Execution File\백견불여일타\MyFirstApp\AddLib\obj\Debug\netstandard2.0\AddLib.dll
+C:\C#\Execution File\백견불여일타\MyFirstApp\AddLib\obj\Debug\netstandard2.0\AddLib.pdb
