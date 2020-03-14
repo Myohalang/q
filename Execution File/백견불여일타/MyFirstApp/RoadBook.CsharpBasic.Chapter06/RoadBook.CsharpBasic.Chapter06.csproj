@@ -54,6 +54,14 @@
     <Compile Include="Examples\Ex009.cs" />
     <Compile Include="Examples\Ex010.cs" />
     <Compile Include="Examples\Ex011.cs" />
+    <Compile Include="Examples\Ex012.cs" />
+    <Compile Include="Examples\Ex013.cs" />
+    <Compile Include="Examples\Ex014.cs" />
+    <Compile Include="Examples\Ex015.cs" />
+    <Compile Include="Examples\Ex016.cs" />
+    <Compile Include="Examples\Ex017.cs" />
+    <Compile Include="Examples\Ex018.cs" />
+    <Compile Include="Examples\Model\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
