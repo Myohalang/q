@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using static System.Console;
 
 namespace RoadBook.CsharpBasic.Chapter06.Examples

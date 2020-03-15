@@ -63,6 +63,7 @@
     <Compile Include="Examples\Ex018.cs" />
     <Compile Include="Examples\Ex019.cs" />
     <Compile Include="Examples\Ex020.cs" />
+    <Compile Include="Examples\Ex021.cs" />
     <Compile Include="Examples\Model\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
