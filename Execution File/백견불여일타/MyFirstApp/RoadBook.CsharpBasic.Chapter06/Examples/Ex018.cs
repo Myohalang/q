@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using static System.Console;
 
 namespace RoadBook.CsharpBasic.Chapter06.Examples
@@ -10,9 +9,9 @@ namespace RoadBook.CsharpBasic.Chapter06.Examples
         {
             int[] ages = new int[10];
 
-            for (int idx = 1; idx < 11; idx++)
+            for (int idx = 0; idx < ages.Length; idx++)
             {
-                WriteLine($"{idx}번째 사람의 나이를 입력하세요. : ");
+                WriteLine($"{idx + 1}번째 사람의 나이를 입력하세요. : ");
 
                 ages[idx] = Convert.ToInt32(ReadLine());
             }
