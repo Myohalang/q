@@ -10,7 +10,7 @@ namespace RoadBook.CsharpBasic.Chapter08.Examples
 
         public void Run()
         {
-            DirectoryInfo directoryInfo = new DirectoryInfo(currentDirectory + @"/data");
+            DirectoryInfo directoryInfo = new DirectoryInfo(currentDirectory + @"\data");
 
             if (!directoryInfo.Exists)
             {
