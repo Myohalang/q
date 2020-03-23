@@ -4,7 +4,7 @@
     {
         static void Main()
         {
-            Examples.Ex004 Ex = new Examples.Ex004();
+            Examples.Ex006 Ex = new Examples.Ex006();
             Ex.Run();
         }
     }

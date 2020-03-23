@@ -47,6 +47,9 @@
     <Compile Include="Examples\Ex002.cs" />
     <Compile Include="Examples\Ex003.cs" />
     <Compile Include="Examples\Ex004.cs" />
+    <Compile Include="Examples\Ex005.cs" />
+    <Compile Include="Examples\Ex006.cs" />
+    <Compile Include="Examples\Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
