@@ -1,0 +1,9 @@
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\bin\Debug\RoadBook.CsharpBasic.Chapter13.exe.config
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\bin\Debug\RoadBook.CsharpBasic.Chapter13.exe
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\bin\Debug\RoadBook.CsharpBasic.Chapter13.pdb
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\bin\Debug\log4net.dll
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\bin\Debug\log4net.xml
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\obj\Debug\RoadBook.CsharpBasic.Chapter13.csprojAssemblyReference.cache
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\obj\Debug\RoadBook.CsharpBasic.Chapter13.csproj.CopyComplete
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\obj\Debug\RoadBook.CsharpBasic.Chapter13.exe
+C:\C#\Execution File\백견불여일타\MyFirstApp\RoadBook.CsharpBasic.Chapter13\obj\Debug\RoadBook.CsharpBasic.Chapter13.pdb
